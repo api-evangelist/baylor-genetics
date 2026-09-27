@@ -1,0 +1,37 @@
+generated: '2026-09-27'
+method: searched
+source: https://www.baylorgenetics.com/privacy-practices/
+signals:
+  data_subject_request:
+    - url: https://www.baylorgenetics.com/privacy-practices/
+      section: YOUR RIGHTS
+      note: Right to access medical records.
+      evidence:
+        - source: https://www.baylorgenetics.com/privacy-practices/
+          http_status: 200
+          fetched: true
+          quote: "You can ask us to see or get an electronic or paper copy of the medical information we have about you. We will provide a copy or a summary of your medical information, usually within 15 days of your request if it is in electronic format."
+    - url: https://www.baylorgenetics.com/privacy-practices/
+      section: YOUR RIGHTS
+      note: Right to correct inaccurate information.
+      evidence:
+        - source: https://www.baylorgenetics.com/privacy-practices/
+          http_status: 200
+          fetched: true
+          quote: "You can ask us to correct medical information about you that you think is incorrect or incomplete."
+    - url: https://www.baylorgenetics.com/privacy-practices/
+      section: YOUR RIGHTS
+      note: Right to restrict use or sharing.
+      evidence:
+        - source: https://www.baylorgenetics.com/privacy-practices/
+          http_status: 200
+          fetched: true
+          quote: "You can ask us to limit what we use or share certain medical information for treatment, payment, or our operations."
+    - url: https://www.baylorgenetics.com/privacy-practices/
+      section: YOUR RIGHTS
+      note: Right to obtain accounting of disclosures.
+      evidence:
+        - source: https://www.baylorgenetics.com/privacy-practices/
+          http_status: 200
+          fetched: true
+          quote: "You can ask us to request a list (accounting) of the times we have shared your medical information for six (6) years prior to the date you ask, to include information on who we shared it with, and why."

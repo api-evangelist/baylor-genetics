@@ -1,0 +1,78 @@
+generated: '2026-09-27'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 5
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - other
+  - website
+hosts:
+- host: api.baylorgenetics.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: baylorgenetics.com
+  role: api
+  relation: own
+- host: catalog.baylorgenetics.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: baylorgenetics.com
+  role: other
+  relation: own
+- host: generesults.baylorgenetics.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: baylorgenetics.com
+  role: other
+  relation: own
+- host: providers.baylorgenetics.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: baylorgenetics.com
+  role: other
+  relation: own
+- host: www.baylorgenetics.com
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Pricing
+  - Newsroom
+  - Website
+  - Blog
+  - About
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: baylorgenetics.com
+  role: website
+  relation: own

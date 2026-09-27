@@ -1,0 +1,14 @@
+generated: '2026-09-27'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.baylorgenetics.com/privacy-practices/
+sources:
+- https://www.baylorgenetics.com/privacy-practices/
+- https://www.baylorgenetics.com/privacy-notice/
+standards:
+- id: hipaa
+  conforms: true
+  evidence: The collection, use, and disclosure of Protected Health Information (PHI) through the BG Website, or that is accessed via the BG Website,
+    that is subject to provisions of the Health Insurance Portability and Accountability Act (HIPAA) and subsequent amendments are subject to
+    our Notice of Privacy Practices which can be found here.
+docs: https://www.baylorgenetics.com/privacy-practices/

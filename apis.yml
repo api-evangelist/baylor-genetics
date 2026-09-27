@@ -1,23 +1,73 @@
 aid: baylor-genetics
+
 name: Baylor Genetics
-description: 'Baylor Genetics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Baylor Genetics provides precision diagnostic testing and genomic sequencing services, leveraging nearly 50 years of experience in clinical genomics. The company offers whole genome, exome, RNA sequencing, and specialized assays, supporting clinicians with actionable insights and comprehensive reports. It serves healthcare providers, researchers, and patients worldwide, emphasizing innovation and data-driven care.'
+
 url: https://raw.githubusercontent.com/api-evangelist/baylor-genetics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
-- Company
-apis: []
+- Genetic Testing
+- Whole Genome Sequencing
+- Precision Diagnostics
+- Clinical Genomics
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Conformance
+  url: conformance/baylor-genetics-conformance.yml
+- type: Hosts
+  url: hosts/baylor-genetics-hosts.yml
+- type: Vendors
+  url: vendors/baylor-genetics-vendors.yml
+- type: TermsOfService
+  url: https://www.baylorgenetics.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.baylorgenetics.com/privacy-notice/
+- type: Pricing
+  url: https://www.baylorgenetics.com/plans/
+- type: Newsroom
+  url: https://www.baylorgenetics.com/news/
+- type: DomainSecurity
+  url: security/baylor-genetics-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/baylor-genetics_stock/
+  url: https://www.baylorgenetics.com
+- type: Blog
+  url: https://www.baylorgenetics.com/blog
+- type: About
+  url: https://www.baylorgenetics.com/about
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The public website provides no machine‑readable OpenAPI, GraphQL, AsyncAPI or other contract despite extensive documentation pages.
+  evidence:
+    - url: https://www.baylorgenetics.com
+      status: 200
+  checked: '2026-09-27'
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
