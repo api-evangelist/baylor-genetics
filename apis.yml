@@ -17,7 +17,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-27'
 
-modified: '2026-09-27'
+modified: '2026-10-06'
 
 tags:
 - Genetic Testing
@@ -32,6 +32,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.baylorgenetics.com/feed/
+  type: BlogRSS
 - type: Conformance
   url: conformance/baylor-genetics-conformance.yml
 - type: Hosts
